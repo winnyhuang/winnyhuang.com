@@ -1,0 +1,169 @@
+
+
+#info{
+	margin:0 auto;
+	color:rgba(0,0,0,0.4);
+	border-radius:3px;
+	border:1px solid rgba(0,0,0,0.1);
+	padding:20px;
+	font-family:sans-serif;
+	font-size:0.8em;
+	line-height:1.5em;
+	width:40%;
+	height:auto;
+	z-index:100;
+	-moz-box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+	box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+
+}
+
+.clearfloat{
+	clear:both;
+}
+
+.card-inset{ 					
+	width:180px;
+	height:252px;
+	border-radius: 5px 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	box-shadow: inset 0 0 10px #CCCCCC; -webkit-box-shadow: inset 0 0 20px #CCCCCC; -moz-box-shadow: inset 0 0 10px #CCCCCC;
+	margin:5px;
+	z-index:-99;
+	float:left;
+}
+
+
+.card{
+		background: #FFFFFF; border: 1px solid #CCCCCC; color: #000000;
+		background:-moz-linear-gradient(top, #FFFFFF, #DDDDDD); background:-webkit-gradient(linear,0 0, 0 100%, from(#FFFFFF), to(#DDDDDD));
+		border-radius: 5px 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+		box-shadow: 1px 1px 7px #CCCCCC; -webkit-box-shadow: 1px 1px 7px #CCCCCC; -moz-box-shadow: 1px 1px 7px #CCCCCC;
+		filter: progid:DXImageTransform.Microsoft.Shadow(color='#CCCCCC', Direction=270, Strength=3);
+		height: 252px; width: 180px; 
+		cursor: pointer; 
+		font-size: 50px; 
+		text-decoration: none;
+		position:absolute;
+		z-index:100;
+}
+
+
+h1{
+	font-size: 30px;
+	padding:10px 20px;
+	margin:0px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300px;
+	color:gray;
+}
+
+span h1{
+	position:absolute;
+	bottom:0;
+	right:0;
+}
+
+h2{
+	color:rgba(0,0,0,0.4);
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	text-align:center;
+	font-size:30px;
+}
+
+h3{
+	color:rgba(0,0,0,0.4);
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	text-align:center;
+	font-size:0.6em;
+	padding-top:50px;
+}
+.card > *:nth-child(2){
+/***border within card**/
+
+	border:1px solid rgba(0,0,0,0.2);
+	height:55%;
+	width: 70%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.card tr{
+	text-align:center;
+}
+
+.card table td{
+	width:10%;
+	height:10%;
+	-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.4)), to(rgba(0,0,0,1)));
+	-moz-mask:-moz-linear-gradient(top left,  rgba(0,0,0,0.4), rgba(0,0,0,1));
+
+}
+
+
+strong{
+/**aces**/
+	vertical-align:middle;
+	margin-top:10%;
+	width:60%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	font-size: 2em;
+	-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.4)), to(rgba(0,0,0,1)));
+	-moz-mask:-moz-linear-gradient(top left,  rgba(0,0,0,0.4), rgba(0,0,0,1));
+}
+
+.med_suits td{
+/**cards 2-4**/
+	font-size:0.8em;
+}
+
+.small_suits td{
+/**cards 5-10**/
+	font-size:0.7em;
+}
+
+.hearts table td, .diamonds table td{
+	color:red;
+}
+
+
+.hearts strong, .diamonds strong{
+	color:red;
+}
+
+
+.container_12 > *:nth-child(6){
+/**piles container**/
+	width:380px;
+	padding-top:20%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#discard_pile, #deal_pile{
+	height:338px;
+}
+
+
+
+.pile_bkgd{
+	background:blue;
+	background:-moz-linear-gradient(top right, #0099FF, #003399); background:-webkit-gradient(linear, left bottom, right top, from(#003399), to(#0099FF));
+	border-radius: 5px 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color='#CCCCCC', Direction=270, Strength=3);
+	height: 252px; width: 180px; 
+	cursor: pointer; 
+	z-index:100;
+	position:absolute;
+	box-shadow: inset 1 2 10px #CCCCCC; -webkit-box-shadow: inset 0 0 20px #CCCCCC; -moz-box-shadow: inset 0 0 10px #CCCCCC;
+}
+
+
+
+#repo .card{
+	display:none;
+	clear:both;
+	position:relative;
+}
+

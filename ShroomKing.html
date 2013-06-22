@@ -1,0 +1,174 @@
+<!doctype html>
+
+<head>
+<meta charset="utf-8">
+<title>Winny Huang | ShroomKing</title>
+<meta name="description" content="Winny Huang is a UI designer in the Bay Area">
+<meta name="author" content="Winny Y. Huang">
+<link rel="shortcut icon" href="http://www.winnyhuang.com/favicon.ico" type="image/x-icon">
+<link rel="icon" href="http://www.winnyhuang.com/favicon.ico" type="image/x-icon">
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/bootstrap-responsive.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+
+<body>
+<div id="dvLoading"><img src="images/loading.gif">
+</div>
+
+
+<nav id="sticky_nav">
+	<a href="index.html"><text id= "logo" style="position:absolute;">
+		<h2>WINNY HUANG</h2>
+		<p>ShroomKing</p></a>
+	</text>
+	<ul id="navbar" class="hidden-phone">
+			<a href="index.html"><li>portfolio</li></a>
+			<a href="Roomade.html"><li>< back</li></a>
+			<a href="FFAD.html"><li>next > </li></a>
+		
+		
+	</ul>
+
+</nav>
+
+
+<div id="content" class="container page_container">
+
+	<div class="row">
+
+		<div class="span3">
+
+			<nav id="sec_nav" class="hidden-phone" style="position:fixed;">
+			
+				<ul>
+					<a href="#overview" class="smoothScroll"><li>overview</li></a>
+					<a href="#game" class="smoothScroll"><li>game flow</li></a>
+				</ul>
+		
+			</nav>
+
+		</div><!--nav span3-->
+
+		<div class="span9 offset3">
+
+		<!--overview-->
+		<section id="overview" class="work_content">
+
+				<img src="images/shroomking/shroomking@2x.jpg" style="border:none;"> <!--main image row span9-->
+
+
+				<div class="row">
+
+
+					<div class="span5">
+						<ul><h1>Shroom King</h1>
+							<li>iOS game that makes eating out more fun </li>
+						</ul>
+		
+						<ul><h1>TEAM</h1>
+							<li><span>Programmer</span> Ryan Leung </li>
+							<li><span>Programmer</span> Benjamin Lui</li>
+							<li><span>Programmer</span> Sahil Takkier</li>
+							<li><span>Designer</span> Eric Hsiao</li>
+							<li><span>Designer</span> Jacqueline Chen</li>
+							<li><span>Designer</span> Winny Huang</li>
+						</ul>	
+
+						<ul><h1>DATE</h1>
+							<li>2011</li>
+						</ul>
+
+
+					</div><!--column span5-->
+
+
+					<div class="span4">
+
+						<ul><h1>TECHNOLOGIES</h1>
+							<li>Photoshop</li>
+						 	<li>Objective-C</li>
+						</ul>
+
+					</div><!--column span4-->
+				</div> <!--row span9-->
+
+			</section>
+
+			<section id="game">
+				<div class="row">
+				
+					<div class="span9">
+						<ul><h1>game flow</h1>
+							<li>1. Invitee creates the guest list </li>
+							<li>2. Each member of the guest list is alerted and asked what they feel like eating</li>
+							<li>3. Application cross-references the preferences of the group</li>
+							<li>4. ShroomKing comes up with five listings</li>
+							<li>5. Members vote place with their five mushrooms</li>
+							<li>6. Application picks the winning eatery</li>
+							<li>7. Person who bet the most mushrooms on the winning location is crowned the ShroomKing</li> 
+
+						</ul>
+					</div>
+				
+					</div><!--row span9-->
+				
+				</section>
+
+				
+				
+				
+
+				</div><!--content inner row, span9-->
+
+			</section>
+
+		</div><!--content span9-->
+
+
+	</div><!--main-row-->
+
+</div><!--container-->
+
+	<script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/smoothscroll.js"></script>
+	<script type="text/javascript">
+	    $(document).ready(function() { 	
+	    	$("#content").css("display","none");				
+	        $("#content").fadeIn(2000);
+	    }); 
+
+		$(window).load(function(){
+	  		$('#dvLoading').fadeOut(2000);
+		});
+	</script>
+	<script type="text/javascript">
+
+  		var _gaq = _gaq || [];
+  		_gaq.push(['_setAccount', 'UA-40446613-1']);
+  		_gaq.push(['_trackPageview']);
+
+  		(function() {
+   		 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+   		 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+   		 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  		})();
+
+	</script>
+
+</body>
+
+<footer class="sec_footer">
+	<p>	&copy; 2013 Winny Huang</p>
+</footer>
+</html>

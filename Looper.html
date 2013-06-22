@@ -1,0 +1,171 @@
+<!doctype html>
+
+<head>
+<meta charset="utf-8">
+<title>Winny Huang | Looper</title>
+<meta name="description" content="Winny Huang is a UI designer in the Bay Area">
+<meta name="author" content="Winny Y. Huang">
+<link rel="shortcut icon" href="http://www.winnyhuang.com/favicon.ico" type="image/x-icon">
+<link rel="icon" href="http://www.winnyhuang.com/favicon.ico" type="image/x-icon">
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/bootstrap-responsive.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+
+<body>
+<div id="dvLoading"><img src="images/loading.gif">
+</div>
+
+<nav id="sticky_nav">
+	<a href="index.html"><text id= "logo" style="position:absolute;">
+		<h2>WINNY HUANG</h2>
+		<p>Looper</p></a>
+	</text>
+	<ul id="navbar">
+			<a href="index.html"><li>portfolio</li></a>
+			<a href="DengueTorpedo.html"><li>< back</li></a>
+			<a href="PrismSort.html"><li>next > </li></a>
+		
+	</ul>
+
+</nav>
+
+
+<div id="content" class="container page_container">
+
+	<div class="row">
+
+		<div class="span3">
+
+			<nav id="sec_nav" style="position:fixed;">
+			
+				<ul>
+					<a href="#overview" class="smoothScroll"><li>overview</li></a>
+					<a href="#problem" class="smoothScroll"><li>problem</li></a>
+				</ul>
+		
+			</nav>
+
+		</div><!--nav span3-->
+
+		<div class="span9 offset3 work_content">
+
+			<!--overview-->
+			<section id="overview">
+
+				<img src="images/Looper/main.jpg">
+
+				<div class="row">
+					<div class="span6">
+						<ul><h1>Looper</h1>
+							<li>Web app that reveals your grandparents' past in real-time</li>
+						</ul>
+
+
+						<ul><h1>team</h1>
+							<li><span>Designer</span> Winny Huang</li>
+							<li><span>Programmer</span> Eric Tsiliacos</li>
+							<li><span>Programmer</span> Kenneth Phung</li>
+							<li><span>Programmer</span> Jeffrey Lee</li>
+							<li><span>UX Researcher</span> Eddie Huang</li>
+							
+						</ul>
+					</div> <!--column span6-->
+
+					<div class="span3">
+						<ul><h1>TECHNOLOGIES</h1>
+						 	<li>Ruby on Rails</li>
+						 	<li>Github</li>
+							<li>HTML5</li>
+							<li>CSS3</li>
+							<li>Fireworks</li>
+							<li>Photoshop</li>
+							<li>Keynote</li>
+						</ul>
+
+						<ul><h1>Course</h1>
+						 	<li>CS160: User Interface Design</li>
+						 </ul>
+
+					</div><!--column span3-->
+
+
+				</div> <!-- row span9--> 
+					
+
+
+			</section> 
+
+
+			
+
+			<section id="problem">
+			
+					<div class="span7">
+						<h1>Problem</h1>
+							<p>Young people are incredibly busy. Finding time to spend with their grandparents can be difficult, and the generation gap can make it seem like our grandparents just won't understand what we're going through.</p>
+						<h1>Solution</h1>
+							<p>Looper superimposes your events with your grandparents' events into a single timeline. Just like how Facebook provides live feeds from your friends, this application will show "live feeds" from your grandparents' past life. <br><br>
+							For example, if it's May 20, 2013 and you're 21, the application will pull events (e.g. news articles, personal experiences) from your grandparents' lives from May 20 when they were 21 (e.g. 1956, 1967...etc). </p>
+		
+						<h1> Inspiration</h1>
+							<p> The idea came about when we started to ponder “What would it look like to out source our lives?” We are one of the first generations to have most of our lives accessible through the web. This application is way to use that information in a meaningful way.</p>
+			
+					
+				</div>
+			</section>
+
+
+
+
+		</div><!--content span9-->
+
+
+	</div><!--main-row-->
+
+</div><!--container-->
+
+	<script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() { 					
+	        $("#content").css("display","none");
+	        $("#content").fadeIn(2000);
+	    }); 
+
+	$(window).load(function(){
+	  		$('#dvLoading').fadeOut(2000);
+	});
+	</script>
+	<script type="text/javascript">
+
+  		var _gaq = _gaq || [];
+  		_gaq.push(['_setAccount', 'UA-40446613-1']);
+  		_gaq.push(['_trackPageview']);
+
+  		(function() {
+   		 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+   		 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+   		 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  		})();
+
+	</script>
+
+
+
+</body>
+
+<footer class="sec_footer">
+	<p>	&copy; 2013 Winny Huang</p>
+</footer>
+</html>

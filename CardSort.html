@@ -1,0 +1,154 @@
+<!doctype html>
+
+<head>
+<meta charset="utf-8">
+<title>Winny Huang | CardSort</title>
+<meta name="description" content="Winny Huang is a UI designer in the Bay Area">
+<meta name="author" content="Winny Y. Huang">
+<link rel="shortcut icon" href="http://www.winnyhuang.com/favicon.ico" type="image/x-icon">
+<link rel="icon" href="http://www.winnyhuang.com/favicon.ico" type="image/x-icon">
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/bootstrap-responsive.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+<div id="dvLoading"><img src="images/loading.gif">
+</div>
+
+<nav id="sticky_nav">
+	<a href="index.html"><text id= "logo" style="position:absolute;">
+		<h2>WINNY HUANG</h2>
+		<p>Card Sort </p></a>
+	</text>
+	<ul id="navbar" class="hidden-phone">
+			<a href="index.html"><li>portfolio</li></a>
+			<a href="PrismSort.html"><li>< back</li></a>
+			<a href="Roomade.html"><li>next > </li></a>
+		
+		
+	</ul>
+
+</nav>
+
+
+<div id="content" class="container page_container">
+
+	<div class="row">
+
+		<div class="span3">
+
+			<nav id="sec_nav" class="hidden-phone" style="position:fixed;">
+			
+				<ul>
+					<a href="#overview" class="smoothScroll"><li>overview</li></a>
+					<a href="CardSort_demo.html" target="_blank"><li>Live Demo</li></a>
+				</ul>
+		
+			</nav>
+
+		</div><!--nav span3-->
+
+		<div class="span9 offset3">
+
+		<!--overview-->
+		<section id="overview" class="work_content">
+
+				<div class="row mac" id="card_img" >
+				</div> <!--main image row span9-->
+
+
+				<div class="row">
+
+
+					<div class="span5">
+						<ul><h1>Card Sort Game</h1>
+							<li>Exploring CSS3 capabilities in rendering playing cards</li>
+						</ul>
+		
+						<ul><h1>TEAM</h1>
+							<li><span>Front-End Programmer</span> Winny Huang</li>
+							<li><span>Back-End Programmer</span> Benjamin Lui</li>
+						</ul>	
+
+						<ul><h1>DATE</h1>
+							<li>2012</li>
+						</ul>
+
+
+					</div><!--column span5-->
+
+
+					<div class="span4">
+
+						<ul><h1>TECHNOLOGIES</h1>
+						 	<li>HTML5</li>
+							<li>CSS3</li>
+							<li>jQuery</li>
+						</ul>
+
+						<ul><h1>Course</h1>
+							<li>CS160: User Interface Design </li>
+						</ul>
+					</div><!--column span4-->
+
+
+				<div class="span9">
+
+						<ul><h1>Instructions</h1>
+							<li>1. Go to the <a href="CardSort_demo.html" target="_blank">live app</a></li>
+							<li>2. Click on a card to move it to the "Discard" pile</a></li>
+							<li>3. Click on the "Deal" pile to move  card into the first empty slot </li>
+						</ul>
+				</div> <!--row span9-->
+
+				<div class="span5">
+						<ul><h1>Note</h1>
+							<p>Since this assignment focused on implementing CSS3/HTML5, the sorting functionality is a little buggy.</p>
+						</ul>
+				
+				</div>
+
+				</div><!--row span9-->
+				
+				
+
+				</div><!--content inner row, span9-->
+
+			</section>
+
+		</div><!--content span9-->
+
+
+	</div><!--main-row-->
+
+</div><!--container-->
+
+	<script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/smoothscroll.js"></script>
+	<script type="text/javascript">
+	     $(document).ready(function() { 	
+	    	$("#content").css("display", "none");					
+	        $("#content").fadeIn(2000);
+	    }); 
+	    
+		$(window).load(function(){
+		  	$('#dvLoading').fadeOut(2000);
+		});
+	</script>
+
+</body>
+
+<footer class="sec_footer">
+	<p>	&copy; 2013 Winny Huang</p>
+</footer>
+</html>

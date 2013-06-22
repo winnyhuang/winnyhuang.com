@@ -1,0 +1,159 @@
+<!doctype html>
+
+<head>
+<meta charset="utf-8">
+<title>Winny Huang | Fan For a Day</title>
+<meta name="description" content="Winny Huang is a UI designer in the Bay Area">
+<meta name="author" content="Winny Y. Huang">
+<link rel="shortcut icon" href="http://www.winnyhuang.com/favicon.ico" type="image/x-icon">
+<link rel="icon" href="http://www.winnyhuang.com/favicon.ico" type="image/x-icon">
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/bootstrap-responsive.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+<div id="dvLoading"><img src="images/loading.gif">
+</div>
+
+<nav id="sticky_nav">
+	<a href="index.html"><text id= "logo" style="position:absolute;">
+		<h2>WINNY HUANG</h2>
+		<p>Fan for a day</p></a>
+	</text>
+	<ul id="navbar" class="hidden-phone">
+			<a href="index.html"><li>portfolio</li></a>
+			<a href="ShroomKing.html"><li>< back</li></a>
+			<a href="RHC.html"><li>next > </li></a>
+		
+		
+	</ul>
+
+</nav>
+
+
+<div id="content" class="container page_container">
+
+	<div class="row">
+
+		<div class="span3">
+
+			<nav id="sec_nav" class="hidden-phone" style="position:fixed;">
+			
+				<ul>
+					<a href="#overview" class="smoothScroll"><li>overview</li></a>
+					<a href="#problem" class="smoothScroll"><li>problem</li></a>
+				</ul>
+		
+			</nav>
+
+		</div><!--nav span3-->
+
+		<div class="span9 offset3">
+
+		<!--overview-->
+		<section id="overview" class="work_content">
+
+				<div  style="text-align:center;">
+				<img src="images/portfolio/FFAD_big@2x.png" style="border:none; margin:0 auto; height:500px;"> </div>
+
+
+				<div class="row">
+
+
+					<div class="span5">
+						<ul><h1>Fan for a Day</h1>
+							<li>iOS app that aggregates tweets about a baseball game</li>
+						</ul>
+		
+						<ul><h1>Client</h1>
+							<li>John Seggman</li>
+						</ul>	
+
+						<ul><h1>DATE</h1>
+							<li>2011</li>
+						</ul>
+
+
+					</div><!--column span5-->
+
+
+					<div class="span4">
+
+						<ul><h1>TECHNOLOGIES</h1>
+							<li>Photoshop</li>
+						 	<li>Wireframes</li>
+						</ul>
+
+					</div><!--column span4-->
+				
+				</div> <!--row span6-->
+
+			</section>
+
+			<section id="problem">
+				<div class="row">
+					<div class="span6">
+
+						<h1>problem</h1>
+							<p>During baseball season, games are constantly going on. Fans want to know at any moment if there's a game they must watch right now. </p>
+						<h1>solution</h1>
+							<p>When a lot of people are tweeting about a game, the app will let other users know the game is getting "hot." Fans can also rate games, see scores, and tweet about games through the app. </p>
+						</ul>
+
+
+					</div><!--column span9-->
+
+				</div><!--row span9-->
+				
+			
+			</section>
+
+		</div><!--content span9-->
+
+
+	</div><!--main-row-->
+
+</div><!--container-->
+
+	<script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/smoothscroll.js"></script>
+	<script type="text/javascript">
+	    $(document).ready(function() { 	
+	    	$("#content").css("display", "none");				
+	        $("#content").fadeIn(2000);
+	    }); 
+
+		$(window).load(function(){
+	  		$('#dvLoading').fadeOut(2000);
+		});
+	</script>
+	<script type="text/javascript">
+
+  		var _gaq = _gaq || [];
+  		_gaq.push(['_setAccount', 'UA-40446613-1']);
+  		_gaq.push(['_trackPageview']);
+
+  		(function() {
+   		 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+   		 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+   		 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  		})();
+
+	</script>
+
+</body>
+
+<footer class="sec_footer">
+	<p>	&copy; 2013 Winny Huang</p>
+</footer>
+</html>

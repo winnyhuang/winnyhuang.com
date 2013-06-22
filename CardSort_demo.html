@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Winny Huang | Card Sort</title>
+<link rel="stylesheet" href="CardSort/960.css" />
+<link rel="stylesheet" href="CardSort/style.css" />
+
+<link rel="shortcut icon" href="http://www.winnyhuang.com/favicon.ico" type="image/x-icon">
+<link rel="icon" href="http://www.winnyhuang.com/favicon.ico" type="image/x-icon">
+
+<script src="CardSort/jquery-1.8.1.min.js"></script>
+<script src="CardSort/script.js"></script>
+
+</head>
+
+
+
+
+<body>	
+
+<div id="card_wrapper"> 
+
+	<div class = "container_12">
+		
+
+	
+		<div id="card1" class="card-inset hand">
+	
+		</div> <!--card-inset-->
+		
+		
+		<div id="card2" class="card-inset hand">
+	
+		</div> <!--card-inset-->
+		
+		
+		<div id="card3" class="card-inset hand">
+		
+		</div> <!--card-inset-->
+	
+	
+	
+		<div id="card4" class="card-inset hand">		
+			
+		</div> <!--card-inset-->
+		
+		
+		<div id="card5" class="card-inset hand">		
+			
+		</div> <!--card-inset-->
+	
+		<div>
+
+			<div id="discard_pile" class="card-inset">
+
+				<h2>DISCARD<h2>
+				<div class="pile_bkgd">
+				</div> <!--discarded cards (face-down)-->
+		
+			</div> <!--pile for discarded cards-->
+		
+		
+			<div id="deal_pile" class="card-inset pile">
+			
+				<h2>DEAL<h2>
+				<div class="pile_bkgd">			
+				</div> <!--dealing cards (face-down)-->	 
+				
+			
+				<div id="repo">  
+				<!--************aces*************-->
+					<div id="ace_spades" class="card spades">
+
+						<h1>A</h1>
+
+						<div><strong>&spades;</strong></div>
+
+						<span><h1>A</h1><span>
+
+					</div> <!--ace_spades-->
+
+
+
+					<div id="two_spades" class="card spades">
+
+						<h1>2</h1>
+
+						<table class="med_suits">
+							<tr>
+								<td>&spades;</td>
+							</tr>
+
+							<tr>
+								<td>&spades;</td>
+							</tr>				
+						</table> <!--box-->
+
+						<span><h1>2</h1><span>
+
+					</div> <!--two_spades-->
+
+
+					<div id="three_spades" class="card spades">
+
+						<h1>3</h1>
+
+
+						<table class="small_suits">
+							<tr>
+								<td>&spades;</td>
+							</tr>
+
+							<tr>
+								<td>&spades;</td>
+							</tr>
+
+							<tr>
+								<td>&spades;</td>
+							</tr>
+						</table>
+
+
+						<span><h1>3</h1><span>
+
+
+					</div> <!--three_spades-->
+
+					<div id="four_spades" class="card spades">
+
+						<h1>4</h1>
+
+						<table class="med_suits">
+							<tr>
+								<td>&spades;</td>
+								<td>&spades;</td>
+							</tr>
+
+							<tr>
+								<td>&spades;</td>
+								<td>&spades;</td>
+							</tr>				
+						</table> <!--box-->
+
+						<span><h1>4</h1><span>
+
+
+					</div> <!--four_spades-->
+
+
+					<div id="five_spades" class="card spades">
+
+						<h1>5</h1>
+
+
+						<table class="small_suits">
+							<tr>
+								<td>&spades;</td>
+								<td></td>
+								<td>&spades;</td>
+							</tr>
+
+							<tr>
+								<td></td>
+								<td>&spades;</td>
+								<td></td>
+							</tr>
+
+							<tr>
+								<td>&spades;</td>
+								<td></td>
+								<td>&spades;</td>
+							</tr>
+						</table>
+
+
+						<span><h1>5</h1><span>
+
+
+					</div> <!--five_spades-->
+
+					<div id="six_spades" class="card spades">
+
+						<h1>6</h1>
+
+
+						<table class="small_suits">
+							<tr>
+								<td>&spades;</td>
+								<td>&spades;</td>
+							</tr>
+
+							<tr>
+								<td>&spades;</td>
+								<td>&spades;</td>
+							</tr>
+
+							<tr>
+								<td>&spades;</td>
+								<td>&spades;</td>
+							</tr>
+						</table>
+
+
+						<span><h1>6</h1><span>
+
+
+					</div> <!--six_spades-->
+
+				<!--************hearts*************-->
+					<div id="ace_hearts" class="card hearts">
+
+						<h1>A</h1>
+
+
+						<div><strong>&hearts;</strong></div>
+
+						<span><h1>A</h1><span>
+
+
+					</div> <!--ace_hearts-->
+
+					<div id="two_hearts" class="card hearts">
+
+						<h1>2</h1>
+
+							<table class="med_suits">
+								<tr>
+									<td>&hearts;</td>
+
+								</tr>
+
+								<tr>
+									<td>&hearts;</td>
+								</tr>
+
+							</table>
+
+						<span><h1>2</h1><span>
+
+
+					</div> <!--two_hearts-->
+
+
+					<div id="three_hearts" class="card hearts">
+
+						<h1>3</h1>
+
+							<table class="small_suits">
+								<tr>
+									<td>&hearts;</td>
+
+								</tr>
+
+								<tr>
+									<td>&hearts;</td>
+								</tr>
+
+								<tr>
+									<td>&hearts;</td>
+								</tr>
+							</table>
+
+
+						<span><h1>3</h1><span>
+
+
+					</div> <!--five_hearts-->
+
+					<div id="four_hearts" class="card hearts">
+
+						<h1>4</h1>
+
+							<table class="med_suits">
+								<tr>
+									<td>&hearts;</td>
+									<td>&hearts;</td>
+
+								</tr>
+
+								<tr>
+									<td>&hearts;</td>
+									<td>&hearts;</td>
+								</tr>
+
+							</table>
+
+						<span><h1>4</h1><span>
+
+
+					</div> <!--four_hearts-->
+
+					<div id="five_hearts" class="card hearts">
+
+						<h1>5</h1>
+
+							<table class="small_suits">
+								<tr>
+									<td>&hearts;</td>
+									<td></td>
+									<td>&hearts;</td>
+
+								</tr>
+
+								<tr>
+									<td></td>
+									<td>&hearts;</td>
+									<td></td>
+								</tr>
+
+								<tr>
+									<td>&hearts;</td>
+									<td></td>
+									<td>&hearts;</td>
+								</tr>
+							</table>
+
+
+						<span><h1>5</h1><span>
+
+
+					</div> <!--five_hearts-->
+
+					<div id="six_hearts" class="card hearts">
+
+						<h1>6</h1>
+
+							<table class="small_suits">
+								<tr>
+									<td>&hearts;</td>
+									<td>&hearts;</td>
+
+								</tr>
+
+								<tr>
+									<td>&hearts;</td>
+									<td>&hearts;</td>
+								</tr>
+
+								<tr>
+									<td>&hearts;</td>
+									<td>&hearts;</td>
+								</tr>
+							</table>
+
+
+						<span><h1>6</h1><span>
+
+
+					</div> <!--six_hearts-->
+
+
+				<!--************clubs*************-->
+					<div id="ace_clubs" class="card clubs">
+
+						<h1>A</h1>
+
+
+						<div><strong>&clubs;</strong></div>
+
+
+						<span><h1>A</h1><span>
+
+
+					</div> <!--ace_clubs-->
+
+					<div id="two_clubs" class="card clubs">
+
+						<h1>2</h1>
+
+
+						<table class="med_suits">
+
+							<tr>
+								<td>&clubs;</td>
+
+							</tr>
+
+							<tr>
+								<td>&clubs;</td>
+							</tr>
+
+						</table>
+
+
+						<span><h1>2</h1><span>
+
+
+					</div> <!--two_clubs-->
+
+
+					<div id="three_clubs" class="card clubs">
+
+							<h1>3</h1>
+
+
+							<table class="small_suits">
+								<tr>
+									<td>&clubs;</td>
+								</tr>
+
+								<tr>
+									<td>&clubs;</td>
+								</tr>
+
+								<tr>
+									<td>&clubs;</td>
+								</tr>
+							</table>
+
+
+							<span><h1>3</h1><span>
+
+
+					</div> <!--three_clubs-->
+
+
+					<div id="four_clubs" class="card clubs">
+
+						<h1>4</h1>
+
+
+						<table class="med_suits">
+
+							<tr>
+								<td>&clubs;</td>
+								<td>&clubs;</td>
+
+							</tr>
+
+							<tr>
+								<td>&clubs;</td>
+								<td>&clubs;</td>
+							</tr>
+
+						</table>
+
+
+						<span><h1>4</h1><span>
+
+
+					</div> <!--four_clubs-->
+
+					<div id="five_clubs" class="card clubs">
+
+							<h1>5</h1>
+
+
+							<table class="small_suits">
+								<tr>
+									<td>&clubs;</td>
+									<td></td>
+									<td>&clubs;</td>
+
+								</tr>
+
+								<tr>
+									<td></td>
+									<td>&clubs;</td>
+									<td></td>
+								</tr>
+
+								<tr>
+									<td>&clubs;</td>
+									<td></td>
+									<td>&clubs;</td>
+								</tr>
+							</table>
+
+
+							<span><h1>5</h1><span>
+
+					</div> <!--five_clubs-->
+
+
+					<div id="six_clubs" class="card clubs">
+
+							<h1>6</h1>
+
+
+							<table class="small_suits">
+								<tr>
+									<td>&clubs;</td>
+									<td>&clubs;</td>
+
+								</tr>
+
+								<tr>
+									<td>&clubs;</td>
+									<td>&clubs;</td>
+								</tr>
+
+								<tr>
+									<td>&clubs;</td>
+									<td>&clubs;</td>
+								</tr>
+							</table>
+
+
+							<span><h1>6</h1><span>
+
+
+					</div> <!--six_clubs-->
+
+				<!--************diamonds*************-->
+					<div id="ace_diamonds" class="card diamonds">
+
+							<h1>A</h1>
+
+							<div><strong>&diams;</strong></div>
+
+							<span><h1>A</h1><span>
+
+
+					</div> <!--ace_diamonds-->
+
+					<div id="two_diamonds" class="card diamonds">
+							<h1>2</h1>
+
+							<table class="med_suits">
+								<tr>
+									<td>&diams;</td>
+								</tr>
+
+								<tr>
+									<td>&diams;</td>
+								</tr>
+							</table>
+
+							<span><h1>2</h1><span>
+					</div>
+
+
+
+
+					<div id="three_diamonds" class="card diamonds">
+							<h1>3</h1>
+
+							<table class="small_suits">
+								<tr>
+									<td>&diams;</td>
+								</tr>
+
+								<tr>
+									<td>&diams;</td>
+								</tr>
+
+								<tr>
+									<td>&diams;</td>
+								</tr>
+							</table>
+
+							<span><h1>3</h1><span>
+					</div>
+
+					<div id="four_diamonds" class="card diamonds">
+							<h1>4</h1>
+
+							<table class="med_suits">
+								<tr>
+									<td>&diams;</td>
+									<td>&diams;</td>
+								</tr>
+
+								<tr>
+									<td>&diams;</td>
+									<td>&diams;</td>
+								</tr>
+							</table>
+
+							<span><h1>4</h1><span>
+
+					</div> <!--four_diamonds-->
+
+
+					<div id="five_diamonds" class="card diamonds">
+
+								<h1>5</h1>
+
+
+								<table class="small_suits">
+									<tr>
+										<td>&diams;</td>
+										<td></td>
+										<td>&diams;</td>
+									</tr>
+
+									<tr>
+										<td></td>
+										<td>&diams;</td>
+										<td></td>
+									</tr>
+
+									<tr>
+										<td>&diams;</td>
+										<td></td>
+										<td>&diams;</td>
+									</tr>
+								</table>
+
+								<span><h1>5</h1><span>
+
+					</div> <!--six_diamonds-->
+
+
+					<div id="six_diamonds" class="card diamonds">
+
+								<h1>6</h1>
+
+
+								<table class="small_suits">
+									<tr>
+										<td>&diams;</td>
+										<td>&diams;</td>
+									</tr>
+
+									<tr>
+										<td>&diams;</td>
+										<td>&diams;</td>
+									</tr>
+
+									<tr>
+										<td>&diams;</td>
+										<td>&diams;</td>
+									</tr>
+								</table>
+
+								<span><h1>6</h1><span>
+
+					</div> <!--six_diamonds-->
+
+
+				</div>
+			
+			</div> <!--pile for dealing cards-->
+		
+		</div> <!--piles container-->
+
+	</div> <!--container-->
+	
+	
+</div> <!--wrapper-->
+	<script type="text/javascript">
+	    $(document).ready(function() { 					
+	        $("body").fadeIn(2000);
+	    }); 
+	 </script>
+
+</body>
+
+<footer>
+	<h3>Property of the Benjamin Lui and Winny Huang Pair Programming Partnership</h3>
+</footer>
+</html>
