@@ -27,10 +27,12 @@ body{
 	font-size: 1em;
 	line-height: 1em;
 	padding:0;
-	padding-top:100px;
 	margin:0 auto;
 }
 
+section{
+	margin-top:100px;
+}
 
 header{
 	margin:30px 20px 30px 0px;
@@ -55,27 +57,12 @@ a{
 	text-decoration: none;
 }
 
-/***
-#wrapper{
-	width:100%;
-}
 
-section{
-	padding-top:100px;
-	padding-bottom: 10%; 
-}
-
-
-section > article{
-	margin:0 auto;
-	width:90%;
-}
 
 /***loading****/
 
 #dvLoading
 {
-   margin-top:-20px;
    width:100%;
    height:100%;
    position:fixed;
@@ -130,7 +117,7 @@ section > article{
 
 /******sticky nav******/
 
-.navbar{
+.navbar .navbar-inner{
 	background-color:rgba(68,68,68,0.9);
 	z-index:1000;
 }
@@ -169,16 +156,10 @@ section > article{
 /************about***********/
 
 #about{
-	margin-left:-20px;
-	margin-right:-20px;
-	margin-top:-20px;
+
 	background-color:rgb(68,68,68);
 }
 
-
-#about section{
-	margin-left:20px;
-}
 
 #about header{
 	padding-top:100px;
@@ -202,7 +183,7 @@ section > article{
 /************work***********/
 
 
-#work>article>.work{
+#work .work{
 	width:300px;
 	height:auto;
 	margin-bottom:2%;
@@ -231,7 +212,7 @@ section > article{
 
 
 
-#work>article>.work:hover{
+#work .work:hover{
 	background-color:white;
 	-moz-box-shadow: 0px 5px 8px rgba(0,0,0,0.2);
 	-webkit-box-shadow: 0px 5px 8px rgba(0,0,0,0.2);
@@ -239,14 +220,14 @@ section > article{
 }
 
 
-#work>article>.work:hover .hover{
+#work .work:hover .hover{
 	
 	display:block
 }
 
 
 
-#work>article>.work>.hover{
+#work .work>.hover{
 	width:280px;
 	margin:0 auto;
 	height:180px;
@@ -255,7 +236,7 @@ section > article{
 	display:none;
 }
 
-#work>article>.work> *:nth-child(2) p{
+#work .work> *:nth-child(2) p{
 	padding-top:30%;
 
 }
